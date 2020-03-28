@@ -43,3 +43,7 @@ Matching Networks for One-Shot Learning. NIPS 2016. [paper](https://arxiv.org/ab
 
 ### Non-Parametric Methods
 
+### Bayesian Meta-Learning
+
+### Application
+
