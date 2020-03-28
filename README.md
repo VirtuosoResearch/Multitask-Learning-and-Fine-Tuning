@@ -35,7 +35,7 @@ Matching Networks for One-Shot Learning. NIPS 2016. [paper](https://arxiv.org/ab
 
 (Implicit MAML) Meta-Learning with Implicit Gradients. NIPS 2019. [paper](https://arxiv.org/abs/1909.04630)
 
-(Implicit Differentiation; SVM) Meta-Learning with Differentiable Convex Optimization. [paper](https://arxiv.org/abs/1904.03758)
+(Implicit Differentiation; SVM) Meta-Learning with Differentiable Convex Optimization. CVPR 2019. [paper](https://arxiv.org/abs/1904.03758)
 
 #### Understanding MAML
 
