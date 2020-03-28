@@ -1,6 +1,8 @@
 # Multi-Task-and-Meta-Learning (Keep Updating)
 This repo is for recording interesting papers in Multi-Task and Meta Learning area. This is partly inspired from [CS330: Deep Multi-Task and Meta Learning](https://cs330.stanford.edu/) course in Stanford by Chelsea Finn. 
 
+Welcome contributing to this repo (EXCITED) :smiley:
+
 ## Multi-Task Learning
 
 End-to-End Multi-Task Learning with Attention. CVPR 2019. [paper](https://arxiv.org/abs/1803.10704)
