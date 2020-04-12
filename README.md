@@ -3,6 +3,8 @@ This repo is for recording interesting papers in Multi-Task and Meta Learning ar
 
 Welcome contributing to this repo (EXCITED) :smiley:
 
+[TOC]
+
 ## Multi-Task Learning
 
 End-to-End Multi-Task Learning with Attention. CVPR 2019. [paper](https://arxiv.org/abs/1803.10704)
