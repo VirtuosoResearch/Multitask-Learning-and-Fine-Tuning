@@ -3,7 +3,9 @@ This repo is for recording interesting papers in Multi-Task and Meta Learning ar
 
 Welcome contributing to this repo (EXCITED) :smiley:
 
-[TOC]
+
+
+[toc]
 
 ## Multi-Task Learning
 
