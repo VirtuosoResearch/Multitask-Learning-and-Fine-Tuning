@@ -19,7 +19,7 @@ Cross-stitch Networks for Multi-task Learning. CVPR 2016. [paper](https://arxiv.
 
 Learning Multiple Tasks with Multilinear Relationship Networks. NIPS 2017. [paper](https://arxiv.org/abs/1506.02117)
 
-More multitask learning papers [here](./Multitask Learning Papers Review.md) :grin: (Updating)
+More multitask learning papers [here](https://github.com/lidongyue12138/Multi-Task-and-Meta-Learning/blob/master/Multitask%20Learning%20Papers%20Review.md) :grin: (Updating)
 
 ## Meta Learning
 
