@@ -23,6 +23,10 @@ More multitask learning papers [here](https://github.com/lidongyue12138/Multi-Ta
 
 ## Meta Learning
 
+### Survey
+
+Meta-Learning in Neural Networks: A Survey. [paper](https://arxiv.org/pdf/2004.05439.pdf)
+
 ### Black-Box Approaches
 
 #### Recurrent Neural Network
