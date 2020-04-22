@@ -137,6 +137,32 @@ Few-Shot Learning with Graph Neural Networks. ICLR 2018. [paper](https://arxiv.o
 
 (CAML) Learning to Learn with Conditional Class Dependencies. ICLR 2019. [paper](https://openreview.net/pdf?id=BJfOXnActQ)
 
+### Meta Reinforcement Learning
+
+#### Policy Gradient RL
+
+**MAML and Black-Box Meta Learning Approaches can be directly applied to Policy-Gradient RL methods**
+
+#### Value-Based RL
+
+**It is not easy to applied existing meta learning approaches to Value-Based RL because Value-Based RL is dynamic programming method** 
+
+Meta-Q-Learning. ICLR 2020. [paper](https://openreview.net/pdf?id=SJeD3CEFPH)
+
+(Goal-Conditioned RL with hindsight relabeling)/(Multi-Task RL) Hindsight Experience Replay. NIPS 2017. [paper](https://papers.nips.cc/paper/7090-hindsight-experience-replay.pdf) 
+
+(better learning) Learning Latent Plans from Play. CoRL 2019. [paper](https://arxiv.org/pdf/1903.01973)
+
+(learn a better goal representation) 
+
+Universal Planning Networks. ICML 2018. [paper](http://proceedings.mlr.press/v80/srinivas18b/srinivas18b.pdf)
+
+Unsupervised Visuomotor Control through Distributional Planning Networks. RSS 2019. [paper](https://arxiv.org/pdf/1902.05542.pdf)
+
+#### Model-Based RL
+
+
+
 ### Application
 
 Meta-Learning for Low-Resource Neural Machine Translation. EMNLP 2018. [paper](https://arxiv.org/pdf/1808.08437)
