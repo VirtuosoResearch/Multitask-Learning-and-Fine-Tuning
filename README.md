@@ -6,8 +6,8 @@ Welcome contributing to this repo (EXCITED) :smiley:
 ###  TO-DO
 
 - [ ] Update RL-related Meta Learning papers
+- [ ] Create toy projects
 - [ ] Update benchmarks
-- [ ] Create some toy projects
 
 ## Multi-Task Learning
 
