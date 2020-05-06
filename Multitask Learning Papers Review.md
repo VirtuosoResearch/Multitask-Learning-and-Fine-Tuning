@@ -19,7 +19,7 @@ Benchmarks:
 ### Papers
 
 - GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding. ICLR 2019. [paper](https://arxiv.org/pdf/1804.07461)
-
+- BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arVix 2018. [paper](https://arxiv.org/pdf/1810.04805.pdf)
 - Multi-Task Learning Using Uncertainty to Weigh Losses for Scene Geometry and Semantics. CVPR 2018. [paper](https://arxiv.org/pdf/1705.07115)
 - A Joint Many-Task Model: Growing a Neural Network for Multiple NLP Tasks. EMNLP 2017. [paper](https://arxiv.org/pdf/1611.01587)
 - Multi-task Sequence to Sequence Learning. ICLR 2016. [paper](https://arxiv.org/pdf/1511.06114)
