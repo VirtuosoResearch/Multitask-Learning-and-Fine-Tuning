@@ -1,13 +1,21 @@
-# Multi-Task-and-Meta-Learning (Keep Updating)
-This repo is for recording interesting papers in Multi-Task and Meta Learning area. This is partly inspired from [CS330: Deep Multi-Task and Meta Learning](https://cs330.stanford.edu/) course in Stanford by Chelsea Finn. 
+# Multi-Task-and-Meta-Learning
+## Arithmetic Reasoning
 
-Welcome contributing to this repo (EXCITED) :smiley:
+**Benchmarks:**
 
-###  TO-DO
+- GSM8k: Arithmetic algorithms such as addition, subtraction, multiplication, and parity.
 
-- [ ] Update RL-related Meta Learning papers
-- [ ] Create toy projects
-- [ ] Update benchmarks
+| Metric: Solve rate (%)                                       |   GSM8k (Model)    |
+| ------------------------------------------------------------ | :----------------: |
+|                                                              | Evaluated on Codex |
+| Chain-of-though prompting ([Wei et al., 2022](https://arxiv.org/abs/2201.11903)) |        63.1        |
+| Algotihmic prompting ([Zhou et al., 2022](https://arxiv.org/abs/2211.09066)) |        82.7        |
+
+
+
+
+
+
 
 ## Multi-Task Learning
 
@@ -19,7 +27,7 @@ Cross-stitch Networks for Multi-task Learning. CVPR 2016. [paper](https://arxiv.
 
 Learning Multiple Tasks with Multilinear Relationship Networks. NIPS 2017. [paper](https://arxiv.org/abs/1506.02117)
 
-More multitask learning papers [here](https://github.com/lidongyue12138/Multi-Task-and-Meta-Learning/blob/master/Multitask%20Learning%20Papers%20Review.md) :grin: (Updating)
+More multitask learning papers [here](https://github.com/lidongyue12138/Multi-Task-and-Meta-Learning/blob/master/Multitask%20Learning%20Papers%20Review.md) 
 
 ## Meta Learning
 
@@ -158,10 +166,6 @@ Meta-Q-Learning. ICLR 2020. [paper](https://openreview.net/pdf?id=SJeD3CEFPH)
 Universal Planning Networks. ICML 2018. [paper](http://proceedings.mlr.press/v80/srinivas18b/srinivas18b.pdf)
 
 Unsupervised Visuomotor Control through Distributional Planning Networks. RSS 2019. [paper](https://arxiv.org/pdf/1902.05542.pdf)
-
-#### Model-Based RL
-
-
 
 ### Application
 
