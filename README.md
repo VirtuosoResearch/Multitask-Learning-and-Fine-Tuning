@@ -6,7 +6,7 @@
 |                                                              |                                                              |                                     |                                         | Metric: Solve rate (%); Model: Codex |      |
 | Scratchpad (Nye et al., 2021)                                | Break a code function down and ask the model to output all intermediate steps of the code | (input, intermediate steps, output) | Manually designed based on an algorithm |                  ?                   |      |
 | Chain-of-though prompting ([Wei et al., 2022](https://arxiv.org/abs/2201.11903)) | Prompt the model with the rationale in solving a multi-step reasoning problem. | (input, chain-of-thought, output)   |            Manually written             |                 63.1                 |      |
-| Algotihmic prompting ([Zhou et al., 2022](https://arxiv.org/abs/2211.09066)) | Prompt the model with detailed rationales, including describing the steps within an algorithm. | (input, algorithmic prompt, output) |            Manusally written            |                 82.7                 |      |
+| Algotihmic prompting ([Zhou et al., 2022](https://arxiv.org/abs/2211.09066)) | Prompt the model with detailed rationales, including describing the steps within an algorithm. | (input, algorithmic prompt, output) |            Manually written             |                 82.7                 |      |
 |                                                              |                                                              |                                     |                                         |                                      |      |
 
 **Benchmarks:**
