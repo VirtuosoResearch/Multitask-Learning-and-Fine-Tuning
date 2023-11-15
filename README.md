@@ -1,5 +1,47 @@
-# Multi-Task-and-Meta-Learning
-## Arithmetic Reasoning
+## Benchmarks for Reasoning Abilities of Large Language Models
+
+**Benchmarks:**
+
+- GSM8k [(Cobbe et al., 2021)](https://arxiv.org/abs/2110.14168): Arithmetic reasoning with grade school problems and natural language descripts. Problems include arithmic operations: addition, subtraction, multiplication, and division.
+
+- MATH (Hendrycks et al., 2021): 
+- MMLU (Hendrycks et al., 2020)
+- Big-Bench-Hard ()
+- HumanEval ()
+- TheoremQA
+- SummEdits
+
+|           | Task Type                                                    | Construction     | # Problems | # Problem Types | Problems                                         | Prompt style                                                 |
+| --------- | ------------------------------------------------------------ | ---------------- | ---------- | --------------- | ------------------------------------------------ | ------------------------------------------------------------ |
+| GSM8k     | Arithmic reasoning of math computation steps using language  | Manually written | 8,500      | 4               | addition, subtraction, multiplication,  division | Multi-step reasoing (Similar to chain-of-thoughts):  The problems take between 2 and 8 steps to solve, as described by natural languages. |
+| MATH      | Math problems from mathematics competitions                  |                  | 12,000     | 7               |                                                  |                                                              |
+| MMLU      | High-school and college-level common knowledge               |                  | 15,000     | 57              |                                                  |                                                              |
+| BBH       | Language and symbolic reasoning                              |                  | 6,500      | 23              |                                                  |                                                              |
+| HumanEval | Python programming problems with text comments and docstrings test cases | Manually written | 164        |                 |                                                  |                                                              |
+| TheoremQA |                                                              |                  |            |                 |                                                  |                                                              |
+| SummEdits |                                                              |                  |            |                 |                                                  |                                                              |
+
+**Examples.**
+
+|       | Example                                                      |
+| ----- | ------------------------------------------------------------ |
+| GSM8K | **Question:** Angelo and Melanie want to plan how many hours over the next week they should study together for their test next week. They have 2 chapters of their textbook to study and 4 worksheets to memorize. They figure out that they should dedicate 3 hours to each chapter of their textbook and 1.5 hours for each worksheet. If they plan to study no more than 4 hours each day, how many days should they plan to study total over the next week if they take a 10-minute break every hour, include 3 10-minute snack breaks each day, and 30 minutes for lunch each day?<br/>**Let's think step by step**<br/>Angelo and Melanie think they should dedicate 3 hours to each of the 2 chapters, 3 hours x 2 chapters = 6 hours total.<br/>For the worksheets they plan to dedicate 1.5 hours for each worksheet, 1.5 hours x 4 worksheets = 6 hours total.<br/>Angelo and Melanie need to start with planning 12 hours to study, at 4 hours a day, 12 / 4 = 3 days.<br/>However, they need to include time for breaks and lunch. Every hour they want to include a 10-minute break, so 12 total hours x 10 minutes = 120 extra minutes for breaks.<br/>They also want to include 3 10-minute snack breaks, 3 x 10 minutes = 30 minutes.<br/>And they want to include 30 minutes for lunch each day, so 120 minutes for breaks + 30 minutes for snack breaks + 30 minutes for lunch = 180 minutes, or 180 / 60 minutes per hour = 3 extra hours.<br/>So Angelo and Melanie want to plan 12 hours to study + 3 hours of breaks = 15 hours total.<br/>They want to study no more than 4 hours each day, 15 hours / 4 hours each day = 3.75<br/>They will need to plan to study 4 days to allow for all the time they need.<br/>**The answer** is 4 |
+
+
+
+ 
+
+**Concepts:**
+
+- Fine-tuning: Use the language modeling objective to further train a pretrained language model. 
+- Verification: First train a generator by question-solution pairs. Then, sample multiple generated solutions, assign each solution a score (binary scores of whether the solution leads to the correct answer), and train a model by the scores. A model trained by the verification scores is called verifier. 
+  - At test time, we sample solutions to each test problem, rank them with the verifier, and then return the one with the highest verifier score.
+
+
+
+
+
+**Prompting methods:**
 
 | Prompt strategy                                              |                           Prompts                            | In-context examples                 |            Prompt generation            |                GSM8k                 |      |
 | ------------------------------------------------------------ | :----------------------------------------------------------: | ----------------------------------- | :-------------------------------------: | :----------------------------------: | ---- |
@@ -8,10 +50,6 @@
 | Chain-of-though prompting ([Wei et al., 2022](https://arxiv.org/abs/2201.11903)) | Prompt the model with the rationale in solving a multi-step reasoning problem. | (input, chain-of-thought, output)   |            Manually written             |                 63.1                 |      |
 | Algotihmic prompting ([Zhou et al., 2022](https://arxiv.org/abs/2211.09066)) | Prompt the model with detailed rationales, including describing the steps within an algorithm. | (input, algorithmic prompt, output) |            Manually written             |                 82.7                 |      |
 |                                                              |                                                              |                                     |                                         |                                      |      |
-
-**Benchmarks:**
-
-- GSM8k: Arithmetic algorithms such as addition, subtraction, multiplication, and parity.
 
 
 
