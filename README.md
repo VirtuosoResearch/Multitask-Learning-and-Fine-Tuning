@@ -29,11 +29,9 @@
 | MATH      | **Question:** The sum of two numbers is 6. The difference of their squares is 12. What is the positive difference of the two numbers?<br/>**Let's think step by step**<br/>Call the two numbers $x$ and $y$. <br/>We are given that $x+y = 6$ and $x^2 - y^2 = 12$. <br/>Because $x^2 - y^2$ factors into $(x+y)(x-y)$, <br/>we can substitute in for $x+y$, <br/>giving $6(x-y) = 12$, <br/>or $x-y = \boxed{2}$.<br/>**The answer** is 2 |
 | MMLU      | The following are multiple choice questions (with answers) about  abstract algebra.<br/>Find all c in Z_3 such that Z_3[x]/(x^2 + c) is a field. <br/> A. 0<br/> B. 1<br/> C. 2<br/> D. 3<br/> **Answer:** B<br/> Statement 1: Every function from a finite set onto itself must be one to one. Statement 2: Every subgroup of an abelian group is abelian. <br/> A. True, True <br/> B. False, False <br/> C. True, False <br/>  D. False, True <br/> **Answer:** A <br/> Find the degree for the given field extension Q(sqrt(2), sqrt(3), sqrt(18)) over Q.<br/> A. 0<br/> B. 4<br/> C. 2<br/> D. 6<br/> **Answer:** B |
 | BBH       | **Input:** "If you follow these instructions, do you return to the starting point? Always face forward. Take 1 step backward. Take 9 steps left. Take 2 steps backward. Take 6 steps forward. Take 4 steps forward. Take 4 steps backward. Take 3 steps right. Options: Yes or No",<br/>**Let's think step by step**<br/>**Target:** "No" |
-| HumanEval | ```def incr_list(l: list):<br />"""Return list with elements incremented by 1.<br /> >>> incr_list([1, 2, 3])<br />[2, 3, 4]<br /> >>> incr_list([5, 3, 5, 2, 3, 3, 9, 0])<br /> [6, 4, 6, 3, 4, 4, 10, 1]<br /> """<br /> return [i+1 for i in l] ``` |
+| HumanEval | **Prompt:** ```def incr_list(l: list):<br/>	"""Return list with elements incremented by 1. <br/>	>>> incr_list([1, 2, 3])<br/>	[2, 3, 4]<br/>	>>> incr_list([5, 3, 5, 2, 3, 3, 9, 0])<br/>	[6, 4, 6, 3, 4, 4, 10, 1]<br/>	""" ```<br />**Output:** ```return [i+1 for i in l]``` |
 |           |                                                              |
 |           |                                                              |
-
-
 
  
 
