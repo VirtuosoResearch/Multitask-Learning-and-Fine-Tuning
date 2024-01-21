@@ -142,7 +142,7 @@ Meta-SGD: Learning to Learn Quickly for Few-Shot Learning. arXiv 2017. [paper](h
 
 (Bias transformation) Meta-Learning and Universality: Deep Representations and Gradient Descent can Approximate any Learning Algorithm. ICLR 2018. [paper](https://arxiv.org/abs/1710.11622)
 
-### Non-Parametric Methods via Metric Learning
+## Non-Parametric Methods via Metric Learning
 
 Siamese Neural Networks for One-shot Image Recognition. ICML 2015. [paper](https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf)
 
@@ -162,7 +162,7 @@ Infinite Mixture Prototypes for Few-Shot Learning. ICML 2019. [paper](https://ar
 
 Few-Shot Learning with Graph Neural Networks ICLR 2018. [paper](https://arxiv.org/pdf/1711.04043)
 
-### Bayesian Meta-Learning & Generative Models
+## Bayesian Meta-Learning & Generative Models
 
 #### Amortized Inference
 
@@ -190,7 +190,7 @@ Few-Shot Learning with Graph Neural Networks. ICLR 2018. [paper](https://arxiv.o
 
 (CAML) Learning to Learn with Conditional Class Dependencies. ICLR 2019. [paper](https://openreview.net/pdf?id=BJfOXnActQ)
 
-### Meta Reinforcement Learning
+## Meta Reinforcement Learning
 
 #### Policy Gradient RL
 
@@ -212,7 +212,7 @@ Universal Planning Networks. ICML 2018. [paper](http://proceedings.mlr.press/v80
 
 Unsupervised Visuomotor Control through Distributional Planning Networks. RSS 2019. [paper](https://arxiv.org/pdf/1902.05542.pdf)
 
-### Application
+## Applications
 
 Meta-Learning for Low-Resource Neural Machine Translation. EMNLP 2018. [paper](https://arxiv.org/pdf/1808.08437)
 
