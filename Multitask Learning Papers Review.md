@@ -6,11 +6,6 @@
 |                                                              |                                                              |                                          |            |                                |
 |                                                              |                                                              |                                          |            |                                |
 
-Directions:
-
-- Weighting Between Tasks Loss & Training Batch 
-- Model Architecture
-
 Benchmarks:
 
 - [GLUE](https://gluebenchmark.com/): Natural Language Understanding
@@ -33,3 +28,4 @@ Benchmarks:
 
 - Exploiting task relatedness for multiple task learning.  Learning Theory and Kernel Machines 2003. [paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.93.8481&rep=rep1&type=pdf)
 - Identifying beneficial task relations for multi-task learning in deep neural networks. EACL 2017. [paper](https://www.aclweb.org/anthology/E17-2026.pdf) 
+
