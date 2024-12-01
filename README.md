@@ -1,20 +1,22 @@
 
 ## Multitask Learning and Fine-Tuning
 
+### Surveys
+
+- Zhang, Y., & Yang, Q. (2021). A survey on multi-task learning. IEEE transactions on knowledge and data engineering. 
+- Jiang et al. (2022). Transferability in deep learning: A survey. arXiv. 
+
 ### Multitask Learning Basics
 
 - Caruana, R. (1997). Multitask learning. *Machine learning*. [paper](https://link.springer.com/article/10.1023/a:1007379606734)
 - Caruana, R. (1996). Algorithms and applications for multitask learning. In *ICML*. [Paper](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=3980c955f95092e527c580f9cfe066a17f752c08)
+- Yang, Y., & Hospedales, T. (2016). Deep multi-task representation learning: A tensor factorisation approach. *ICLR.* [Paper](https://arxiv.org/abs/1605.06391)
 - GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding. ICLR 2019. [paper](https://arxiv.org/pdf/1804.07461)
 - BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arVix 2018. [paper](https://arxiv.org/pdf/1810.04805.pdf)
-- Multi-Task Learning Using Uncertainty to Weigh Losses for Scene Geometry and Semantics. CVPR 2018. [paper](https://arxiv.org/pdf/1705.07115)
-- A Joint Many-Task Model: Growing a Neural Network for Multiple NLP Tasks. EMNLP 2017. [paper](https://arxiv.org/pdf/1611.01587)
 - Multi-task Sequence to Sequence Learning. ICLR 2016. [paper](https://arxiv.org/pdf/1511.06114)
 - The natural language decathlon: Multitask learning as question answering.  arXiv 2019. [paper](https://arxiv.org/pdf/1806.08730)
-- Gated multi-task network for text classification. NAACL 2018. [paper](https://www.aclweb.org/anthology/N18-2114.pdf)
 - Understanding and Improving Information Transfer in Multi-Task Learning. ICLR 2020. [paper](https://openreview.net/pdf?id=SylzhkBtDB)
 - Multi-Task Deep Neural Networks for Natural Language Understanding. ACL 2019. [paper](https://arxiv.org/pdf/1901.11504)
-- Which Tasks Should Be Learned Together in Multi-task Learning. CVPR 2019. [paper](https://arxiv.org/pdf/1905.07553) 
 
 ### **Task Relatedness**
 
@@ -46,6 +48,10 @@ Task affinity
 
 ### Multitask Learning Architectures
 
+- Gated multi-task network for text classification. NAACL 2018. [paper](https://www.aclweb.org/anthology/N18-2114.pdf)
+
+- A Joint Many-Task Model: Growing a Neural Network for Multiple NLP Tasks. EMNLP 2017. [paper](https://arxiv.org/pdf/1611.01587)
+
 - End-to-End Multi-Task Learning with Attention. CVPR 2019. [paper](https://arxiv.org/abs/1803.10704)
 
 - Latent Multi-task Architecture Learning. AAAI 2019. [paper](https://arxiv.org/abs/1705.08142)
@@ -53,6 +59,10 @@ Task affinity
 - Cross-stitch Networks for Multi-task Learning. CVPR 2016. [paper](https://arxiv.org/abs/1604.03539)
 
 - Learning Multiple Tasks with Multilinear Relationship Networks. NIPS 2017. [paper](https://arxiv.org/abs/1506.02117)
+
+### Optimization Methods for Multi-Task Learning
+
+- Multi-Task Learning Using Uncertainty to Weigh Losses for Scene Geometry and Semantics. CVPR 2018. [paper](https://arxiv.org/pdf/1705.07115)
 
 ### Benchmarks
 
