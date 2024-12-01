@@ -5,9 +5,6 @@
 
 - Caruana, R. (1997). Multitask learning. *Machine learning*. [paper](https://link.springer.com/article/10.1023/a:1007379606734)
 - Caruana, R. (1996). Algorithms and applications for multitask learning. In *ICML*. [Paper](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=3980c955f95092e527c580f9cfe066a17f752c08)
-- Ben-David, S., & Schuller, R. (2003). Exploiting task relatedness for multiple task learning. In *COLT/Kernel*. [paper](https://link.springer.com/chapter/10.1007/978-3-540-45167-9_41)
-- Ben-David et al. (2010). A theory of learning from different domains. *Machine learning* [paper](https://link.springer.com/article/10.1007/s10994-009-5152-4)
-
 - GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding. ICLR 2019. [paper](https://arxiv.org/pdf/1804.07461)
 - BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arVix 2018. [paper](https://arxiv.org/pdf/1810.04805.pdf)
 - Multi-Task Learning Using Uncertainty to Weigh Losses for Scene Geometry and Semantics. CVPR 2018. [paper](https://arxiv.org/pdf/1705.07115)
@@ -21,8 +18,31 @@
 
 ### **Task Relatedness**
 
-- Exploiting task relatedness for multiple task learning.  Learning Theory and Kernel Machines 2003. [paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.93.8481&rep=rep1&type=pdf)
+**Theoretical notions of task relatedness.** 
+
+- Ben-David, S., & Schuller, R. (2003). Exploiting task relatedness for multiple task learning. In *Learning Theory and Kernel Machines*. [paper](https://link.springer.com/chapter/10.1007/978-3-540-45167-9_41)
+- Ben-David et al. (2010). A theory of learning from different domains. *Machine learning* [paper](https://link.springer.com/article/10.1007/s10994-009-5152-4)
+- Hanneke, S., & Kpotufe, S. (2019). On the value of target data in transfer learning. *Advances in Neural Information Processing Systems*. [Paper](https://proceedings.neurips.cc/paper/2019/hash/b91f4f4d36fa98a94ac5584af95594a0-Abstract.html)
+- Du et al. (2020). Few-shot learning via learning the representation, provably. *ICLR*. [paper](https://arxiv.org/abs/2002.09434)
+
+**Measurements in deep neural networks.**
+
+Grdients
+
+- Yu et al. (2020). Gradient surgery for multi-task learning. *NeurIPS.* [Paper](https://proceedings.neurips.cc/paper_files/paper/2020/hash/3fe78a8acf5fda99de95303940a2420c-Abstract.html)
+- Dery et al.  (2021). Auxiliary task update decomposition: The good, the bad and the neutral. *ICLR.* [paper](https://arxiv.org/abs/2108.11346)
+- Chen et al. (2021). Weighted training for cross-task learning. *ICLR.* [paper](https://arxiv.org/abs/2105.14095)
+
+Predicted probabilities between tasks
+
+- Nguyen et al (2020). Leep: A new measure to evaluate transferability of learned representations. *ICML.* [Paper](https://proceedings.mlr.press/v119/nguyen20b.html)
+
 - Identifying beneficial task relations for multi-task learning in deep neural networks. EACL 2017. [paper](https://www.aclweb.org/anthology/E17-2026.pdf) 
+
+Task affinity
+
+- Standley et al. (2020). Which tasks should be learned together in multi-task learning? *ICML*. [paper](https://proceedings.mlr.press/v119/standley20a.html)
+- Fifty et al. (2021). Efficiently identifying task groupings for multi-task learning. *NeuIPS.* [Paper](https://proceedings.neurips.cc/paper/2021/hash/e77910ebb93b511588557806310f78f1-Abstract.html)
 
 ### Multitask Learning Architectures
 
