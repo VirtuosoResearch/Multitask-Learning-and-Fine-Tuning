@@ -48,6 +48,12 @@ Task affinity
 
 ### Multitask Learning Architectures
 
+**Branching**
+
+- Guo et al. (2020). Learning to branch for multi-task learning. In *ICML*. [paper](https://arxiv.org/abs/2006.01895)
+
+**Gated Neural Networks**
+
 - Gated multi-task network for text classification. NAACL 2018. [paper](https://www.aclweb.org/anthology/N18-2114.pdf)
 
 - A Joint Many-Task Model: Growing a Neural Network for Multiple NLP Tasks. EMNLP 2017. [paper](https://arxiv.org/pdf/1611.01587)
@@ -68,6 +74,10 @@ Task affinity
 
 - [GLUE](https://gluebenchmark.com/): Natural Language Understanding
 - [decaNLP](https://decanlp.com/): 10 NLP Tasks
+
+### Softwares and Open-source Libraries 
+
+- [LibMTL]( https://github.com/median-research-group/LibMTL): an open-source library built on PyTorch for mulitask learning. 
 
 ## Meta Learning
 
