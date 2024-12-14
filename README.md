@@ -1,10 +1,10 @@
 
-## Multitask Learning and Fine-Tuning
+## Multitask learning reference repositories
 
 ### Surveys
 
 - Zhang, Y., & Yang, Q. (2021). A survey on multi-task learning. IEEE transactions on knowledge and data engineering. 
-- Jiang et al. (2022). Transferability in deep learning: A survey. arXiv. 
+- Jiang et al. (2022). Transferability in deep learning: A survey.
 
 ### Multitask Learning Basics
 
